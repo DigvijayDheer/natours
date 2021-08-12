@@ -186,7 +186,7 @@ body {
 @media screen {
     @media only screen and (max-width: 600px) {
         html {
-            font-size: 4px;
+            font-size: 4.5px;
         }
     }
 }
