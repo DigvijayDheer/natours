@@ -53,3 +53,16 @@
         animation-fill-mode: backwards;
     }
 }
+
+
+@media screen {
+    @media only screen and (max-width: 600px) {
+        .btn {
+            &:link,
+            &:visited {
+                padding: 2rem 6rem;
+                font-size: 2rem;
+            }
+        }
+    }
+}
